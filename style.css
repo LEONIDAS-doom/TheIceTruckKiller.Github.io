@@ -1,0 +1,151 @@
+/* Reset dasar */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.Profil {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+img.profil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #555;
+}
+
+p,
+ul,
+li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.Tentang {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Data-Diri {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Data-Diri p {
+  margin: 10px 0;
+}
+
+.Project {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Item.of.Project {
+  text-align: center;
+}
+
+.Foto-Project {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#keahlian {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#keahlian ul {
+  list-style: none;
+  padding: 0;
+}
+
+#keahlian li {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#Kontak {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  font-size: 16px;
+  width: 100%;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
